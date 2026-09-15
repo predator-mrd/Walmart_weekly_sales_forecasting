@@ -1,0 +1,26 @@
+{
+  "SARIMAX": {
+    "order": [
+      1,
+      1,
+      1
+    ],
+    "seasonal_ar": 1
+  },
+  "STL": {
+    "robust": false,
+    "trend": "add"
+  },
+  "Prophet": {
+    "changepoint_prior_scale": 0.1,
+    "seasonality_prior_scale": 1.0
+  },
+  "UCM": {
+    "harmonics": 6,
+    "level": "local level"
+  },
+  "Theta": {
+    "deseasonalize": true,
+    "theta": 3.0
+  }
+}

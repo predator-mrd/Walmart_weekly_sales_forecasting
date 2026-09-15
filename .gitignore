@@ -1,0 +1,34 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local package metadata
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter, IPython, and Matplotlib runtime/cache files
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+.matplotlib/
+jupyter-runtime/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

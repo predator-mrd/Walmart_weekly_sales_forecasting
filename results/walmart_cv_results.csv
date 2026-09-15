@@ -1,0 +1,23 @@
+model,candidate,params,mean_cv_rmse,std_cv_rmse,successful_folds,status
+Prophet,3,"{""changepoint_prior_scale"": 0.1, ""seasonality_prior_scale"": 1.0}",2086459.5331523265,380004.8349334699,2,ok
+Prophet,4,"{""changepoint_prior_scale"": 0.1, ""seasonality_prior_scale"": 10.0}",2096536.3858645963,381711.92778034124,2,ok
+Prophet,2,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 10.0}",2198603.8238096405,414250.38526015065,2,ok
+Prophet,1,"{""changepoint_prior_scale"": 0.01, ""seasonality_prior_scale"": 1.0}",2345064.56358625,570491.8489246715,2,ok
+SARIMAX,2,"{""order"": [1, 1, 1], ""seasonal_ar"": 1}",1766333.0799283786,562632.5287887474,2,ok
+SARIMAX,1,"{""order"": [1, 1, 1], ""seasonal_ar"": 0}",2166525.086432696,359176.0604710663,2,ok
+SARIMAX,4,"{""order"": [1, 0, 1], ""seasonal_ar"": 1}",2586558.104395182,639503.0256315109,2,ok
+SARIMAX,3,"{""order"": [1, 0, 1], ""seasonal_ar"": 0}",3865877.9955747533,1148117.5485020424,2,ok
+STL,3,"{""robust"": false, ""trend"": ""add""}",2042024.951163425,803123.9223094196,2,ok
+STL,4,"{""robust"": false, ""trend"": null}",2057373.8485359792,788791.9044951153,2,ok
+STL,1,"{""robust"": true, ""trend"": ""add""}",2105529.8526632125,749949.4313881173,2,ok
+STL,2,"{""robust"": true, ""trend"": null}",2118817.7920807656,750383.883476579,2,ok
+Theta,3,"{""deseasonalize"": true, ""theta"": 3.0}",1833359.8049142442,574771.0777762944,2,ok
+Theta,2,"{""deseasonalize"": true, ""theta"": 2.0}",1833649.9552380205,574823.7855156023,2,ok
+Theta,1,"{""deseasonalize"": true, ""theta"": 1.0}",1834933.0096132034,574602.8717766264,2,ok
+Theta,6,"{""deseasonalize"": false, ""theta"": 3.0}",3460253.0281300014,1076582.4388224117,2,ok
+Theta,5,"{""deseasonalize"": false, ""theta"": 2.0}",3475439.477788969,1080733.4986334676,2,ok
+Theta,4,"{""deseasonalize"": false, ""theta"": 1.0}",3521591.22799638,1093145.5525741333,2,ok
+UCM,3,"{""harmonics"": 6, ""level"": ""local level""}",2536846.31487755,420156.5487958479,2,ok
+UCM,4,"{""harmonics"": 6, ""level"": ""local linear trend""}",2541377.942172964,552111.8998183103,2,ok
+UCM,1,"{""harmonics"": 3, ""level"": ""local level""}",2982810.639439675,553754.930604018,2,ok
+UCM,2,"{""harmonics"": 3, ""level"": ""local linear trend""}",3332972.4966341034,924027.3509227613,2,ok
