@@ -30,5 +30,3 @@ python -m venv .venv
 ## Result preview
 
 ![All models on the 13-week holdout](results/walmart_history_matched_equal_weight_ensemble_2_year_forecast.png)
-
-The published output files are in [results](results). The equal-weight ensemble achieved the best historical 13-week holdout RMSE: **$560,019**.
